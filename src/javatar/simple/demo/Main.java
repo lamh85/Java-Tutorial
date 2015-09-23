@@ -8,9 +8,11 @@ public class Main {
         System.out.print("Hey! What's your name: ");
         String name = sc.nextLine();
         System.out.println("Hello, " + name + "!");
+    }
+
+    public static void secondary(String[] args) {
         int fizz;
         fizz = 5;
         System.out.println("The value of fizz is: " + fizz);
     }
-
 }
